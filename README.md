@@ -1,4 +1,4 @@
-# Powershell-Useful-Commands
+# Powershell-Useful-Commands ⭐
 Repository of small scripts that can be used for specific tasks such as obtaining hardware information among others.
 
 ---
