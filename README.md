@@ -6,6 +6,10 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 Useful command to discover the hardware that the specific computer is using.
 It distributes and organizes all the information so that it is visually clear.
 
+### Format-XML.ps1
+Formats an XML document to make it easier to view.
+With file selection function using the file explorer
+
 ### Get-SvManager.ps1
 Obtains and sorts the servers added to the Server Manager.
 So that they can be clearly displayed and information can be obtained from them such as the Status and the Date of the last update.
