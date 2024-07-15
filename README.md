@@ -18,5 +18,8 @@ It distributes and organizes all the information so that it is visually clear.
 Obtains and sorts the servers added to the Server Manager.
 So that they can be clearly displayed and information can be obtained from them such as the Status and the Date of the last update.
 
+### Get-SoftwareUpdates.ps1
+This script checks for and installs pending software updates on the system
+
 ### Set-ColorTheme.ps1
 Change the color of the Windows theme between light and dark with the option to decide between either of the two
