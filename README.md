@@ -29,3 +29,7 @@ Get a weather report for the country/city you want through a web request
 
 ### Set-ColorTheme.ps1
 Change the color of the Windows theme between light and dark with the option to decide between either of the two
+
+### Test-Latency.ps1
+Generates a report of the current device latency by setting six targets which are Google, Cloudflare, OpenDNS, Verizon DNS, AWS and Microsoft Azure.
+Provides latency, an indication of the state of latency, visual and error control
