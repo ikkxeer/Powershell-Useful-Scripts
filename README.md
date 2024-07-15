@@ -21,5 +21,8 @@ So that they can be clearly displayed and information can be obtained from them 
 ### Get-SoftwareUpdates.ps1
 This script checks for and installs pending software updates on the system
 
+### Get-VolumeInfo.ps1
+Allows you to list and select volumes to review the main characteristics in an organized and visually clear manner.
+
 ### Set-ColorTheme.ps1
 Change the color of the Windows theme between light and dark with the option to decide between either of the two
