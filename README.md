@@ -3,33 +3,33 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 
 ---
 - ### Add-SvManager.ps1
-Add servers to Server Manager, specifying the name.
-In addition to this, format the XML document before adding the server and save the changes for successful results.
+  Add servers to Server Manager, specifying the name.
+  In addition to this, format the XML document before adding the server and save the changes for successful results.
 
 - ### Format-XML.ps1
-Formats an XML document to make it easier to view.
-With file selection function using the file explorer
+  Formats an XML document to make it easier to view.
+  With file selection function using the file explorer
 
 - ### Get-HW.ps1
-Useful command to discover the hardware that the specific computer is using.
-It distributes and organizes all the information so that it is visually clear.
+  Useful command to discover the hardware that the specific computer is using.
+  It distributes and organizes all the information so that it is visually clear.
 
 - ### Get-SvManager.ps1
-Obtains and sorts the servers added to the Server Manager.
-So that they can be clearly displayed and information can be obtained from them such as the Status and the Date of the last update.
+  Obtains and sorts the servers added to the Server Manager.
+  So that they can be clearly displayed and information can be obtained from them such as the Status and the Date of the last update.
 
 - ### Get-SoftwareUpdates.ps1
-This script checks for and installs pending software updates on the system
+  This script checks for and installs pending software updates on the system
 
 - ### Get-VolumeInfo.ps1
-Allows you to list and select volumes to review the main characteristics in an organized and visually clear manner.
+  Allows you to list and select volumes to review the main characteristics in an organized and visually clear manner.
 
 - ### Get-WeatherReport.ps1
-Get a weather report for the country/city you want through a web request
+  Get a weather report for the country/city you want through a web request
 
 - ### Set-ColorTheme.ps1
-Change the color of the Windows theme between light and dark with the option to decide between either of the two
+  Change the color of the Windows theme between light and dark with the option to decide between either of the two
 
 - ### Test-Latency.ps1 (Compatible only with PowerShell 5.1 and earlier versions)
-Generates a report of the current device latency by setting six targets which are Google, Cloudflare, OpenDNS, Verizon DNS, AWS and Microsoft Azure.
-Provides latency, an indication of the state of latency, visual and error control
+  Generates a report of the current device latency by setting six targets which are Google, Cloudflare, OpenDNS, Verizon DNS, AWS and Microsoft Azure.
+  Provides latency, an indication of the state of latency, visual and error control
