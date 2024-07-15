@@ -17,3 +17,6 @@ So that they can be clearly displayed and information can be obtained from them 
 ### Add-SvManager.ps1
 Add servers to Server Manager, specifying the name.
 In addition to this, format the XML document before adding the server and save the changes for successful results.
+
+### Set-ColorTheme.ps1
+Change the color of the Windows theme between light and dark with the option to decide between either of the two
