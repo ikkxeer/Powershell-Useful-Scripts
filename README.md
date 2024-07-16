@@ -28,6 +28,15 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 
 - ### Get-WeatherReport.ps1
   Get a weather report for the country/city you want through a web request
+  
+- ### Get-IPReport.ps1
+  Generates a detailed report of the current device's IP information including public IP, private IP, subnet mask, address family, and MAC address.
+  Provides a clear, color-coded display of all relevant network information.
+  
+  - Example:
+  
+  ![image](https://github.com/user-attachments/assets/422d8183-2ee8-4723-b2fc-54cd2a7285cc)
+
 
 - ### Set-ColorTheme.ps1
   Change the color of the Windows theme between light and dark with the option to decide between either of the two
@@ -35,6 +44,8 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 - ### Test-Latency.ps1 (Compatible only with PowerShell 5.1 and earlier versions)
   Generates a report of the current device latency by setting six targets which are Google, Cloudflare, OpenDNS, Verizon DNS, AWS and Microsoft Azure.
   Provides latency, an indication of the state of latency, visual and error control
+
+  - Example:
 
   ![image](https://github.com/user-attachments/assets/ef2a0d74-51fd-45bd-b000-6c07fb7d10a7)
 
