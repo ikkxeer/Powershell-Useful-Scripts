@@ -1,7 +1,9 @@
 # Powershell-Useful-Scripts ⭐
 Repository of small scripts that can be used for specific tasks such as obtaining hardware information among others.
 
----
+
+## List and explanation 
+
 - ### Add-SvManager.ps1
   Add servers to Server Manager, specifying the name.
   In addition to this, format the XML document before adding the server and save the changes for successful results.
@@ -33,3 +35,25 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 - ### Test-Latency.ps1 (Compatible only with PowerShell 5.1 and earlier versions)
   Generates a report of the current device latency by setting six targets which are Google, Cloudflare, OpenDNS, Verizon DNS, AWS and Microsoft Azure.
   Provides latency, an indication of the state of latency, visual and error control
+
+  ![image](https://github.com/user-attachments/assets/ef2a0d74-51fd-45bd-b000-6c07fb7d10a7)
+
+
+## How to use
+1. Run Powershell
+2. Locate the path where the scripts you want to run are located
+3. Run the script you want to use
+
+Example:
+  ```powershell
+.\Test-Latency.ps1
+````
+
+## Contributing
+Contributions to enhance the repository or address issues are welcome. Please open a GitHub issue or submit a pull request.
+
+## Author
+
+These scripts were created by ``Ikkxeer``
+
+For any inquiries or issues, please contact @ikkxeer
