@@ -57,7 +57,7 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 
 **Example:**
   ```powershell
-.\Test-Latency.ps1
+.\Scripts\Test-Latency.ps1
 ````
 
 ## Contributing
