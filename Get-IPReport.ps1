@@ -3,6 +3,7 @@ $PrivateAddress = Get-NetIPAddress | Where-Object { $_.InterfaceAlias -eq 'Ether
 $AddressFamily = Get-NetIPAddress | Where-Object { $_.InterfaceAlias -eq 'Ethernet' } | Select-Object -ExpandProperty AddressFamily
 $Submask =  Get-NetIPAddress | Where-Object { $_.InterfaceAlias -eq 'Ethernet' } | Select-Object -ExpandProperty PrefixLength
 $MAC = Get-NetIPConfiguration | Where-Object { $_.InterfaceAlias -eq 'Ethernet' } | select @{n='IPv4Address';e={$_.IPv4Address[0]}}, @{n='MacAddress'; e={$_.NetAdapter.MacAddress}}
+$ipInfo = Invoke-RestMethod -Uri "http://ipinfo.io/json"
 
 Write-Host " "
 Write-Host "GENERATING IP ADDRESS REPORT..." -ForegroundColor Yellow
@@ -11,6 +12,26 @@ Write-Host "---------------------------------" -ForegroundColor Yellow
 $counter = 1
 Write-Host "Public IP Address" -ForegroundColor Yellow
 Write-Host $PublicAddress -ForegroundColor Green
+Write-Host " "
+
+Write-Host "Hostname Public IP" -ForegroundColor Yellow
+Write-Host "Hostname: $($ipInfo.hostname)" -ForegroundColor Green
+Write-Host " "
+
+Write-Host "City of Public IP" -ForegroundColor Yellow
+Write-Host "Hostname: $($ipInfo.city)" -ForegroundColor Green
+Write-Host " "
+
+Write-Host "Organization of Public IP" -ForegroundColor Yellow
+Write-Host "Hostname: $($ipInfo.org)" -ForegroundColor Green
+Write-Host " "
+
+Write-Host "Postal Code of Public IP" -ForegroundColor Yellow
+Write-Host "Hostname: $($ipInfo.postal)" -ForegroundColor Green
+Write-Host " "
+
+Write-Host "TimeZone of Public IP" -ForegroundColor Yellow
+Write-Host "Hostname: $($ipInfo.TimeZone)" -ForegroundColor Green
 Write-Host " "
 
 Write-Host "Private IP Address" -ForegroundColor Yellow
