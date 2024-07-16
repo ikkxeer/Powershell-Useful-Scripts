@@ -35,7 +35,7 @@ Repository of small scripts that can be used for specific tasks such as obtainin
   
   - Example:
   
-  ![image](https://github.com/user-attachments/assets/422d8183-2ee8-4723-b2fc-54cd2a7285cc)
+  ![image](https://github.com/user-attachments/assets/ff2048b8-d7aa-4380-8f1f-c726e17c54d9)
 
 
 - ### Set-ColorTheme.ps1
