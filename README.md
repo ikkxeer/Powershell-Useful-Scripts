@@ -44,7 +44,7 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 2. Locate the path where the scripts you want to run are located
 3. Run the script you want to use
 
-Example:
+**Example:**
   ```powershell
 .\Test-Latency.ps1
 ````
