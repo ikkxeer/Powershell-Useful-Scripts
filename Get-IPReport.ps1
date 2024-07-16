@@ -19,19 +19,19 @@ Write-Host "Hostname: $($ipInfo.hostname)" -ForegroundColor Green
 Write-Host " "
 
 Write-Host "City of Public IP" -ForegroundColor Yellow
-Write-Host "Hostname: $($ipInfo.city)" -ForegroundColor Green
+Write-Host "City: $($ipInfo.city)" -ForegroundColor Green
 Write-Host " "
 
 Write-Host "Organization of Public IP" -ForegroundColor Yellow
-Write-Host "Hostname: $($ipInfo.org)" -ForegroundColor Green
+Write-Host "Organization: $($ipInfo.org)" -ForegroundColor Green
 Write-Host " "
 
 Write-Host "Postal Code of Public IP" -ForegroundColor Yellow
-Write-Host "Hostname: $($ipInfo.postal)" -ForegroundColor Green
+Write-Host "Postal Code: $($ipInfo.postal)" -ForegroundColor Green
 Write-Host " "
 
 Write-Host "TimeZone of Public IP" -ForegroundColor Yellow
-Write-Host "Hostname: $($ipInfo.TimeZone)" -ForegroundColor Green
+Write-Host "Timezone: $($ipInfo.TimeZone)" -ForegroundColor Green
 Write-Host " "
 
 Write-Host "Private IP Address" -ForegroundColor Yellow
@@ -65,4 +65,3 @@ $MAC | ForEach-Object {
     Write-Host ("MAC Address: " + $_.MacAddress) -ForegroundColor Green
 }
 Write-Host " "
-
