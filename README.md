@@ -50,6 +50,8 @@ Repository of small scripts that can be used for specific tasks such as obtainin
  
     ![image](https://github.com/user-attachments/assets/b7ffaf31-ca1c-40bb-82b4-885e406951a4)
 
+- ### Remove-Secure.ps1
+  Deletes the selected file so that it is untraceable once cleaned by file recovery software
   
 - ### Set-ColorTheme.ps1
   Change the color of the Windows theme between light and dark with the option to decide between either of the two
