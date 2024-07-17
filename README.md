@@ -8,6 +8,12 @@ Repository of small scripts that can be used for specific tasks such as obtainin
   Add servers to Server Manager, specifying the name.
   In addition to this, format the XML document before adding the server and save the changes for successful results.
 
+- ### Decrypt-Password.ps1
+  Decrypts password stored in ".\Password.txt" and outputs the password result in clear text
+
+- ### Encrypt-Password.ps1
+  Encrypts password passed through an input and saves it encrypted in a ".\Password.txt" file
+  
 - ### Format-XML.ps1
   Formats an XML document to make it easier to view.
   With file selection function using the file explorer
