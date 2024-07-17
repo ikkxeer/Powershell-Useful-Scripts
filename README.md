@@ -43,7 +43,14 @@ Repository of small scripts that can be used for specific tasks such as obtainin
   
   ![image](https://github.com/user-attachments/assets/ff2048b8-d7aa-4380-8f1f-c726e17c54d9)
 
+- ### Monitor-Website.ps1
+  Monitor a specific web url with customizable interval seconds giving details about date and time
 
+  - Example:
+ 
+    ![image](https://github.com/user-attachments/assets/b7ffaf31-ca1c-40bb-82b4-885e406951a4)
+
+  
 - ### Set-ColorTheme.ps1
   Change the color of the Windows theme between light and dark with the option to decide between either of the two
 
