@@ -54,10 +54,18 @@ Repository of small scripts that can be used for specific tasks such as obtainin
   Generates a detailed report of the current device's IP information including public IP, private IP, subnet mask, address family, and MAC address.
   Provides a clear, color-coded display of all relevant network information.
   
-  - Example:
+  - Information:
+    - Public IP Address
+    - Hostname Public IP
+    - City of Public IP
+    - Organization of Public IP
+    - Postal Code of Public IP
+    - Tiemzones of Public IP
+    - Privates IP Addresses
+    - Submasks of Private IPs
+    - Addresses Family Private IPs
+    - MAC Addresses
   
-  ![image](https://github.com/user-attachments/assets/ff2048b8-d7aa-4380-8f1f-c726e17c54d9)
-
 - ### Monitor-Website.ps1
   Monitor a specific web url with customizable interval seconds giving details about date and time
 
