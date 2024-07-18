@@ -19,6 +19,12 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 
   - **Requeriments**
     - Word Application
+   
+- ### Export-PDF-To-Docx.ps1
+  Exports .pdf file to a .docx file, file selection functionality with interaction box
+
+  - **Requeriments**
+    - Word Application
   
 - ### Format-XML.ps1
   Formats an XML document to make it easier to view.
