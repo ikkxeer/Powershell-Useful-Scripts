@@ -82,8 +82,10 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 
 ## How to use
 1. Run Powershell
-2. Locate the path where the scripts you want to run are located
-3. Run the script you want to use
+![image](https://github.com/user-attachments/assets/1f1d27fd-9797-475f-a65c-d186b23f2c4a)
+
+3. Locate the path where the scripts you want to run are located
+4. Run the script you want to use
 
 **Example:**
   ```powershell
