@@ -1,7 +1,7 @@
 Add-Type -AssemblyName System.Windows.Forms
 
 $OpenFileDialog = New-Object System.Windows.Forms.OpenFileDialog
-$OpenFileDialog.Filter = "Todos los archivos (*.*)|*.*"
+$OpenFileDialog.Filter = "All Files (*.*)|*.*"
 $OpenFileDialog.Multiselect = $false
 
 if ($OpenFileDialog.ShowDialog() -eq 'OK') {
@@ -9,7 +9,7 @@ if ($OpenFileDialog.ShowDialog() -eq 'OK') {
     Write-Host "File selected: $SelectedFilePath" -ForegroundColor Green
     Write-Host " "
 } else {
-    Write-Host "No se seleccionó ningún archivo." -ForegroundColor Yellow
+    Write-Host "No file selected." -ForegroundColor Yellow
     Write-Host " "
 }
 
