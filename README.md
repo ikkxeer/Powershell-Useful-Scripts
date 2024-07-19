@@ -90,8 +90,8 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 
   ![image](https://github.com/user-attachments/assets/ef2a0d74-51fd-45bd-b000-6c07fb7d10a7)
 
-  - ### Update-MSEdge.ps1
-    Forces Microsoft Edge browser to update to the latest available version of the program
+- ### Update-MSEdge.ps1
+  Forces Microsoft Edge browser to update to the latest available version of the program
 
 
 ## How to use
