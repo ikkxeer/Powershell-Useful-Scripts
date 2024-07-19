@@ -14,23 +14,23 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 - ### Convert-VHDX-To-Qcow2.ps1
   Converts .vhdx file to a .qcow2 file, file selection functionality with interaction box
 
-- ### Decrypt-Password.ps1
-  Decrypts password stored in ".\Password.txt" and outputs the password result in clear text
-
-- ### Encrypt-Password.ps1
-  Encrypts password passed through an input and saves it encrypted in a ".\Password.txt" file
-
-- ### Export-Docx-To-PDF.ps1
+- ### Convert-Docx-To-PDF.ps1
   Exports .docx file to a .pdf file, file selection functionality with interaction box
 
   - **Requeriments**
     - Word Application
    
-- ### Export-PDF-To-Docx.ps1
+- ### Convert-PDF-To-Docx.ps1
   Exports .pdf file to a .docx file, file selection functionality with interaction box
 
   - **Requeriments**
     - Word Application
+
+- ### Decrypt-Password.ps1
+  Decrypts password stored in ".\Password.txt" and outputs the password result in clear text
+
+- ### Encrypt-Password.ps1
+  Encrypts password passed through an input and saves it encrypted in a ".\Password.txt" file
   
 - ### Format-XML.ps1
   Formats an XML document to make it easier to view.
