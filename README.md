@@ -51,6 +51,9 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 
 - ### Get-CPU-Temp.ps1
   Print CPU temperature in Celsius on terminal.
+
+- ### Get-Disk-Temp.ps1
+  Print Disks temperature in Celsius on terminal.
   
 - ### Get-SvManager.ps1
   Obtains and sorts the servers added to the Server Manager.
