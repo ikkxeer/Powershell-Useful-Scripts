@@ -32,6 +32,9 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 - ### Decrypt-Password.ps1
   Decrypts password stored in ".\Password.txt" and outputs the password result in clear text.
 
+- ### Defrag-Disk.ps1
+  Defragment all disks installed on the computer.
+
 - ### Encrypt-Password.ps1
   Encrypts password passed through an input and saves it encrypted in a ".\Password.txt" file.
   
