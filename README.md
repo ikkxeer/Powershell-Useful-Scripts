@@ -94,6 +94,9 @@ Repository of small scripts that can be used for specific tasks such as obtainin
  
     ![image](https://github.com/user-attachments/assets/b7ffaf31-ca1c-40bb-82b4-885e406951a4)
 
+- ### Optimize-Register.ps1
+  Clean the Windows Registry for proper operation of the system and its components.
+
 - ### Remove-Secure.ps1
   Deletes the selected file so that it is untraceable once cleaned by file recovery software.
   
