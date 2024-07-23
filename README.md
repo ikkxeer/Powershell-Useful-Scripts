@@ -11,6 +11,9 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 - ### BackupFiles.ps1
   Creates a backup of important installers from one location to another, creating a backup copy.
 
+- ### Clean-Temp.ps1.ps1
+  Clean temporary files from assigned folders.
+
 - ### Convert-Image-To-PDF.ps1
   Converts .bmp, .jpg, .jpeg, .png, .gif, .tiff, .ico file to a .pdf file, file selection functionality with interaction box.
 
