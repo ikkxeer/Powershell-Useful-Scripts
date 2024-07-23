@@ -8,6 +8,9 @@ Repository of small scripts that can be used for specific tasks such as obtainin
   Add servers to Server Manager, specifying the name.
   In addition to this, format the XML document before adding the server and save the changes for successful results.
 
+- ### BackupFiles.ps1
+  Creates a backup of important installers from one location to another, creating a backup copy.
+
 - ### Convert-Image-To-PDF.ps1
   Converts .bmp, .jpg, .jpeg, .png, .gif, .tiff, .ico file to a .pdf file, file selection functionality with interaction box
 
