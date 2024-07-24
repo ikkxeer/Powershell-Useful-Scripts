@@ -68,6 +68,9 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 - ### Get-CPU-Temp.ps1
   Print CPU temperature in Celsius on terminal.
 
+- ### Get-HighResourcesProcess.ps1
+  Prints the 10 processes with the most CPU consumption in an orderly manner.
+
 - ### Get-Disk-Temp.ps1
   Print Disks temperature in Celsius on terminal.
   
