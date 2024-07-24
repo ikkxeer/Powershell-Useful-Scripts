@@ -57,9 +57,9 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 - ### Get-UserCommits.ps1
   Function to obtain the commits that a user has made on GitHub in a given time, this function uses the following parameters:
 
-  - Username: Username to be reviewed
-  - Token: Github API Token to use
-  - DaysBack: Days ago do you want to review the commits
+  - **Username:** Username to be reviewed
+  - **Token:** Github API Token to use
+  - **DaysBack:** Days ago do you want to review the commits
 
 - ### Get-HW.ps1
   Useful command to discover the hardware that the specific computer is using.
