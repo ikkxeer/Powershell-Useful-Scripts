@@ -109,6 +109,12 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 - ### Set-ColorTheme.ps1
   Change the color of the Windows theme between light and dark with the option to decide between either of the two.
 
+- ### Sincronize-NTP.ps1
+  Function to synchronize the NTP server of your system, with the following parameters:
+
+  - **Wait:** Time to wait to execute NTP server synchronization (In seconds)
+  - **Confirm:** Ask to confirm before executing the command
+
 - ### Test-Latency.ps1
   Generates a report of the current device latency by setting six targets which are Google, Cloudflare, OpenDNS, Verizon DNS, AWS and Microsoft Azure.
   Provides latency, an indication of the state of latency, visual and error control.
