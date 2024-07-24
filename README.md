@@ -38,8 +38,14 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 - ### Defrag-Disk.ps1
   Defragment all disks installed on the computer.
 
+- ### Disable-Firewall.ps1
+  Disable the 3 different profiles of the Firewall.
+
 - ### Encrypt-Password.ps1
   Encrypts password passed through an input and saves it encrypted in a ".\Password.txt" file.
+
+- ### Enable-Firewall.ps1
+  Enable the 3 different profiles of the Firewall.
   
 - ### Format-XML.ps1
   Formats an XML document to make it easier to view.
