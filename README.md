@@ -126,6 +126,9 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 - ### Update-MSEdge.ps1
   Forces Microsoft Edge browser to update to the latest available version of the program.
 
+- ### UltraCompress-File.ps1
+  Compresses the entered file to a .zip with the highest compression allowed in powershell.
+
 
 ## How to use
 1. Run Powershell
