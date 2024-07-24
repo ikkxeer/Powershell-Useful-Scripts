@@ -139,6 +139,9 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 - ### UltraCompress-File.ps1
   Compresses the entered file to a .zip with the highest compression allowed in powershell.
 
+- ### Verify-SystemFiles.ps1
+  Check and repair system files using the sfc /scannow command. The script provides detailed output on the status of the system file check and determines whether any issues were found and could not be repaired automatically.
+
 
 ## How to use
 1. Run Powershell
