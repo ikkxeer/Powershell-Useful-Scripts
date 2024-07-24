@@ -54,7 +54,7 @@ Repository of small scripts that can be used for specific tasks such as obtainin
 - ### Get-ActiveUsersReport.ps1
   Save a report of active users into a "ActiveUsersReport.txt" file.
 
-- ### Get-ActiveUsersReport.ps1
+- ### Get-UserCommits.ps1
   Function to obtain the commits that a user has made on GitHub in a given time, this function uses the following parameters:
 
   - Username: Username to be reviewed
