@@ -56,19 +56,34 @@ The main goal of the project is to create a well-organized repository with tools
 ## How to Use
 
 1. Run PowerShell.
-   
-   ![image](https://github.com/user-attachments/assets/6944f1c9-fd6f-4148-bcce-1ed0518726b3)
+      > It is recommended to use the latest version of Powershell available.
 
-3. Locate the path where the scripts you want to run are located.
-   
-   ![image](https://github.com/user-attachments/assets/e5df0556-6f06-4f29-9141-a36c237bd979)
+2. Locate the path where the scripts you want to run are located.
 
-5. Run the script you want to use.
+   ```powershell
+   Set-Location -Path "path\to\repository\folder"
+   ```
+   
+3. Run the script you want to use.
 
    **Example:**
    ```powershell
-   .\Scripts\Test-Latency.ps1
+   .\Test-Latency.ps1
     ```
+
+## Common problems
+
+- **AccessDenied**
+  - Solution: Run Powershell as administrator
+    ```powershell
+    if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))  
+    {  
+      $arguments = "& '" +$myinvocation.mycommand.definition + "'"
+      Start-Process powershell.exe -Verb runAs -ArgumentList $arguments
+      Break
+    }
+    ```
+
 
 ## Contributing
 Contributions to enhance the repository or address issues are welcome. Please open a GitHub issue or submit a pull request.
