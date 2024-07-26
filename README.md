@@ -48,6 +48,7 @@ The main goal of the project is to create a well-organized repository with tools
 - **Test-Latency.ps1**: Generates a report of the current device latency by setting six targets (Google, Cloudflare, OpenDNS, Verizon DNS, AWS, Microsoft Azure).
 - **Remote-Connection.ps1**: Enable Powershell Remote and connect to a computer with requested credentials computer name, username and password.
 - **Enable-RDP.ps1**: Enable RDP in a computer.
+- **Get-OpenPorts.ps1**: Prints a list of open ports to the console.
 
 ### Updates and Synchronization
 - **Get-SoftwareUpdates.ps1**: Checks for and installs pending software updates on the system.
