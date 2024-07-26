@@ -103,7 +103,7 @@ The main goal of the project is to create a well-organized repository with tools
 
     For more information about:
     
-    - [Set-ExecutionPolicy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.4)
+    [Set-ExecutionPolicy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.4)
 
 - **Module or Assembly not found**
   - Description: This error indicates that the script is trying to load a module or assembly that is not installed on your system.
