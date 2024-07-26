@@ -40,7 +40,7 @@ The main goal of the project is to create a well-organized repository with tools
 - **Get-Disk-Temp.ps1**: Prints the disk temperatures in Celsius on the terminal.
 - **Get-HighResourcesProcess.ps1**: Prints the top 10 processes with the highest CPU consumption in an orderly manner.
 - **Get-VolumeInfo.ps1**: Lists and selects volumes to review their main characteristics in an organized and clear manner.
-- **Verify-SystemFiles.ps1**: Checks and repairs system files using the `sfc /scannow` command.
+- **Verify-SystemFiles.ps1**: Checks and repairs system files using the sfc /scannow command.
 
 ### Network and Connectivity
 - **Get-IPReport.ps1**: Generates a detailed report of the current device's IP information, including public IP, private IP, subnet mask, address family, and MAC address.
@@ -84,6 +84,7 @@ The main goal of the project is to create a well-organized repository with tools
 
 - **AccessDenied**
   - Solution: Run Powershell as administrator
+    
     ```powershell
     if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))  
     {  
