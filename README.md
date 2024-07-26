@@ -46,6 +46,7 @@ The main goal of the project is to create a well-organized repository with tools
 - **Get-IPReport.ps1**: Generates a detailed report of the current device's IP information, including public IP, private IP, subnet mask, address family, and MAC address.
 - **Monitor-Website.ps1**: Monitors a specific web URL with a customizable interval, providing details about the date and time.
 - **Test-Latency.ps1**: Generates a report of the current device latency by setting six targets (Google, Cloudflare, OpenDNS, Verizon DNS, AWS, Microsoft Azure).
+- **Remote-Connection.ps1**: Enable Powershell Remote and connect to a computer with requested credentials computer name, username and password.
 
 ### Updates and Synchronization
 - **Get-SoftwareUpdates.ps1**: Checks for and installs pending software updates on the system.
