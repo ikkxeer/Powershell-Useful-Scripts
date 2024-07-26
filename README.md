@@ -27,8 +27,6 @@ The main goal of the project is to create a well-organized repository with tools
   - **Requirements**: Word Application.
 - **Convert-HTML-To-Docx.ps1**: Converts HTML files to .docx files.
   - **Requirements**: Word Application.
-- **Convert-CSV-To-Excel.ps1**: Converts CSV files to Excel (.xlsx) files.
-- **Convert-Excel-To-CSV.ps1**: Converts Excel (.xlsx) files to CSV files.
 - **Convert-Video-To-MP4.ps1**: Converts video files to MP4 format.
 
 ### Security and Passwords
