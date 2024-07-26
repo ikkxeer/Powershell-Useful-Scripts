@@ -23,6 +23,13 @@ The main goal of the project is to create a well-organized repository with tools
   - **Requirements**: Word Application.
 - **Convert-PDF-To-Docx.ps1**: Exports PDF files to .docx files.
   - **Requirements**: Word Application.
+- **Convert-Docx-To-HTML.ps1**: Converts .docx files to HTML files.
+  - **Requirements**: Word Application.
+- **Convert-HTML-To-Docx.ps1**: Converts HTML files to .docx files.
+  - **Requirements**: Word Application.
+- **Convert-CSV-To-Excel.ps1**: Converts CSV files to Excel (.xlsx) files.
+- **Convert-Excel-To-CSV.ps1**: Converts Excel (.xlsx) files to CSV files.
+- **Convert-Video-To-MP4.ps1**: Converts video files to MP4 format.
 
 ### Security and Passwords
 - **Decrypt-Password.ps1**: Decrypts a password stored in ".\Password.txt" and outputs the result in clear text.
@@ -52,6 +59,7 @@ The main goal of the project is to create a well-organized repository with tools
 ### Compression and Formatting
 - **UltraCompress-File.ps1**: Compresses the specified file to a .zip with the highest compression allowed in PowerShell.
 - **Format-XML.ps1**: Formats an XML document to make it easier to view, with file selection functionality using the file explorer.
+- **Extract-Files.ps1**: Extracts files from a specified archive (e.g., .zip, .rar) to a target directory.
 
 ## How to Use
 
@@ -95,6 +103,21 @@ The main goal of the project is to create a well-organized repository with tools
     For more information about:
     
     - [Set-ExecutionPolicy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.4)
+
+- **Module or Assembly not found**
+  - Description: This error indicates that the script is trying to load a module or assembly that is not installed on your system.
+  - **Solution**: Install the required module or assembly. For example, to install a missing PowerShell module:
+    ```powershell
+    Install-Module -Name ModuleName
+    ```
+
+    ```powershell
+    Add-Type -AssemblyName "AssemblyName"
+    ```
+
+- **Syntax Errors**
+  - Description: These errors occur due to incorrect syntax or commands in the script.
+  - Solution: Review the script for syntax errors and ensure commands are correctly written and used.
 
 
 ## Contributing
