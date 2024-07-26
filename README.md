@@ -84,6 +84,18 @@ The main goal of the project is to create a well-organized repository with tools
     }
     ```
 
+- **Running scripts is disabled on this system**
+  - Solution: Change Execution Policy
+    ```powershell
+    Set-ExecutionPolicy Unrestricted # Recommended for personal use
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+    Set-ExecutionPolicy Bypass
+    ```
+
+    For more information about:
+    
+    - [Set-ExecutionPolicy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.4)
+
 
 ## Contributing
 Contributions to enhance the repository or address issues are welcome. Please open a GitHub issue or submit a pull request.
