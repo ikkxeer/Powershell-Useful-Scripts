@@ -1,7 +1,7 @@
 $desktopAppsToRemove = @(
     "APP1",
-    "APP2"
-    "APP3"
+    "APP2",
+    "APP3",
     "APP4"
 )
 
