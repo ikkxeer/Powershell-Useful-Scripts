@@ -67,6 +67,11 @@ The main goal of the project is to create a well-organized repository with tools
 - **Hide-MicrosoftStore.ps1**: Hide Microsoft Store by uninstalling it.
 - **Show-MicrosoftStore.ps1**: Reinstall and show again Microsoft Store.
 
+### Windows Personalization
+- **Enable-AutoTray.ps1**: Enable autotray in **Windows 10 and Windows 11**, that is, it shows all system tray icons on the taskbar
+- **Set-ColorTheme.ps1**: Allows you to decide between light or dark theme and apply it to the system
+
+
 ## How to Use
 
 1. Run PowerShell.
