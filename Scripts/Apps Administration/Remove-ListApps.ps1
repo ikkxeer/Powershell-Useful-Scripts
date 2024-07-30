@@ -1,8 +1,7 @@
 $desktopAppsToRemove = @(
-    "APP1",
-    "APP2",
-    "APP3",
-    "APP4"
+    "<APPNAME>",
+    "<APPNAME>",
+    "<APPNAME>"
 )
 
 foreach ($app in $desktopAppsToRemove) {
