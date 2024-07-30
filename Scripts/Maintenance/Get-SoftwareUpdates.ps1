@@ -26,7 +26,7 @@ Write-Host "Updating system applications..." -ForegroundColor Yellow
 Write-Host " "
 
 try {
-    winget upgrade --all --include-unknown
+    winget upgrade --all
     Write-Host " "
     Write-Host "Applications have been updated successfully!" -ForegroundColor Green
     Write-Host " "
