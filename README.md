@@ -62,6 +62,9 @@ The main goal of the project is to create a well-organized repository with tools
 - **Format-XML.ps1**: Formats an XML document to make it easier to view, with file selection functionality using the file explorer.
 - **Extract-Files.ps1**: Extracts files from a specified archive (e.g., .zip, .rar) to a target directory.
 
+### Apps Administration
+- **Remove-ListApps.ps1**: Script template to delete custom application list.
+
 ## How to Use
 
 1. Run PowerShell.
