@@ -1,4 +1,4 @@
-unction Show-Message {
+function Show-Message {
     param (
         [string]$Message,
         [string]$Color
