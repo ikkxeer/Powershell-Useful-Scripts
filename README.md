@@ -64,6 +64,8 @@ The main goal of the project is to create a well-organized repository with tools
 
 ### Apps Administration
 - **Remove-ListApps.ps1**: Script template to delete custom application list.
+- **Hide-MicrosoftStore.ps1**: Hide Microsoft Store by uninstalling it.
+- **Show-MicrosoftStore.ps1**: Reinstall and show again Microsoft Store.
 
 ## How to Use
 
