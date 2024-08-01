@@ -1,4 +1,7 @@
-# Powershell-Useful-Scripts ⭐
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0003520a-7e90-4c5f-8ef9-ff708c0db620" alt="Powershell Useful Scripts logo" height="300" width="300">
+</div>
+<h1 align="center">Powershell Useful Scripts</h1>
 Repository of small scripts that can be used for specific tasks such as Networking, automation, file conversion, server administration and more.
 
 ## Main objectives
