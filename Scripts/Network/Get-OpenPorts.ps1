@@ -1,1 +1,0 @@
-Get-NetTCPConnection | Where-Object {($_.State -eq "Listen") -and ($_.RemoteAddress -eq "0.0.0.0")}
