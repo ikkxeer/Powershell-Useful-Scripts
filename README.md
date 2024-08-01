@@ -82,10 +82,17 @@ The main goal of the project is to create a well-organized repository with tools
 - **Hide-MicrosoftStore.ps1**: Hide Microsoft Store by uninstalling it.
 - **Show-MicrosoftStore.ps1**: Reinstall and show again Microsoft Store.
 
-### Windows Personalization
+### Windows Personalization and Configuration
 - **Enable-AutoTray.ps1**: Enable autotray in **Windows 10 and Windows 11**, that is, it shows all system tray icons on the taskbar
 - **Set-ColorTheme.ps1**: Allows you to decide between light or dark theme and apply it to the system
-
+- **Change-IconSize.ps1**: Change the size of icons on the desktop and in File Explorer.
+- **Change-SystemLanguage.ps1**: Change the system language settings.
+- **Disable-BackgroundApps.ps1**: Disable background apps to improve performance.
+- **Disable-Cortana.ps1**: Disable Cortana, the virtual assistant.
+- **Disable-GameBar.ps1**: Disable the Game Bar for gaming features.
+- **Disable-GetEvenMoreOut.ps1**: Disable "Get Even More Out" suggestions.
+- **Enable-SyncTime.ps1**: Enable synchronization of system time with an internet time server.
+- **Mute-Windows.ps1**: Mute all system sounds on Windows.
 
 ## How to Use
 
