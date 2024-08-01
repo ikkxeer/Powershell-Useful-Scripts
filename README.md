@@ -9,6 +9,12 @@ The main goal of the project is to create a well-organized repository with tools
 
 ## Available Scripts
 
+### Apps Administration
+- **Hide-MicrosoftStore.ps1**: Hide Microsoft Store for local user.
+- **Show-MicrosoftStore.ps1**: Show Microsoft Store for local user.
+- **Remove-ListApps.ps1**: Uninstalls the current user's applications from the defined list.
+  - **Requirements**: Winget.
+
 ### Server Administration
 - **Add-SvManager.ps1**: Adds servers to Server Manager, formats the XML document before adding the server, and saves the changes.
 - **Get-SvManager.ps1**: Retrieves and organizes the servers added to Server Manager, displaying information such as status and the date of the last update.
@@ -52,6 +58,12 @@ The main goal of the project is to create a well-organized repository with tools
 - **Remote-Connection.ps1**: Enable Powershell Remote and connect to a computer with requested credentials computer name, username and password.
 - **Enable-RDP.ps1**: Enable RDP in a computer.
 - **Get-OpenPorts.ps1**: Prints a list of open ports to the console.
+- **Verify-IPConnections.ps1**: Verify connections with defined IPs.
+- **Scan-IPPorts.ps1**: Scan specific ports of a defined IP.
+- **Monitor-Networking.ps1**: Monitor Network bandwidth.
+- **Get-OpenPorts.ps1**: Generates a report of the current open ports.
+- **Get-IPInfo.ps1**: Generates a report of the current used IP properties.
+- **Get-ArpTable.ps1**: Generate a report of ARP Table.
 
 ### Updates and Synchronization
 - **Get-SoftwareUpdates.ps1**: Checks for and installs pending software updates on the system.
