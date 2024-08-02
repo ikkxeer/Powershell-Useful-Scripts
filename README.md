@@ -153,6 +153,9 @@ The main goal of the project is to create a well-organized repository with tools
   - Description: These errors occur due to incorrect syntax or commands in the script.
   - Solution: Review the script for syntax errors and ensure commands are correctly written and used.
 
+## License
+
+This project is licensed under the MIT License. Consult the file [LICENSE](LICENSE) for more details.
 
 ## Contributing
 Contributions to enhance the repository or address issues are welcome. Please open a GitHub issue or submit a pull request.
