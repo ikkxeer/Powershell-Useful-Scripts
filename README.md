@@ -93,6 +93,7 @@ The main goal of the project is to create a well-organized repository with tools
 - **Disable-GetEvenMoreOut.ps1**: Disable "Get Even More Out" suggestions.
 - **Enable-SyncTime.ps1**: Enable synchronization of system time with an internet time server.
 - **Mute-Windows.ps1**: Mute all system sounds on Windows.
+- **Enable-Preview-PDFs**: Enable preview PDF local and remote if it is blocked by security **(Security risk)**
 
 ## How to Use
 
